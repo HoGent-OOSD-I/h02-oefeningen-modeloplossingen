@@ -13,15 +13,11 @@ public class H2_Oef10
     private void verwerk3Getallen()
     {
         //invoer
-        Scanner invoer = new Scanner (System.in);
-        System.out.print("Geef eerste getal in: ");
-        int getal1 = invoer.nextInt();
+        int getal1 = leesGetal("Geef eerste getal in: ");
 
-        System.out.print("Geef tweede getal in: ");
-        int getal2 = invoer.nextInt();
+        int getal2 = leesGetal("Geef tweede getal in: ");
 
-        System.out.print("Geef derde getal in: ");
-        int getal3 = invoer.nextInt();
+        int getal3 = leesGetal("Geef derde getal in: ");
 
         //verwerk
         int som = getal1 + getal2 + getal3;
@@ -41,5 +37,12 @@ public class H2_Oef10
                 "het gemiddelde ", gemiddelde,
                 "de rest ", rest,
                 "en het grootste getal ", grootsteGetal);
+    }
+
+    private int leesGetal(String vraag)
+    {
+        Scanner invoer = new Scanner(System.in);
+        System.out.print(vraag);
+        return invoer.nextInt();
     }
 }
