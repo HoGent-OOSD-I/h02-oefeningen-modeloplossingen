@@ -2,7 +2,7 @@ package cui;
  
 public class H2_Oef9c 
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
     	new H2_Oef9c().maakTabel();
 	}
