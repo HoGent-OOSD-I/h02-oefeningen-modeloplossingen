@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class H2_Oef3
 {
-    public static void main (String[] args)
+    public static void main(String[] args)
     {
         new H2_Oef3().toon2SwitchVoorbeelden();
     }
@@ -15,12 +15,11 @@ public class H2_Oef3
         Scanner invoer = new Scanner(System.in);
         int i, k;
         // invoer van een waarde voor i
-        System.out.print ("Geef een geheel getal: ");
+        System.out.print("Geef een geheel getal: ");
         i = invoer.nextInt();
 
         // mbv een switch-expressie
-        k = switch (i)
-        {
+        k = switch (i) {
             case 1 -> 3;
             case 2 -> 6;
             case 3, 4 -> 10;
@@ -31,14 +30,14 @@ public class H2_Oef3
 
         int x, y = 0;
         // invoer van een waarde voor x
-        System.out.print ("Geef een geheel getal: ");
+        System.out.print("Geef een geheel getal: ");
         x = invoer.nextInt();
 
         // mbv een switch-statement
-        switch(x)
-        {
+        switch (x) {
             case 100, 150, 170, 199 -> y = y + 1;
-        };
+        }
+        ;
         /*  NIET (want geen default-label; noodzakelijk bij een switch-expressie!)
         y = switch(x)
                 {

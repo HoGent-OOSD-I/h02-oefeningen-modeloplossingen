@@ -33,14 +33,12 @@ public class H2_Oef1
 
         // opgave3
         x = -3;
-        if (x >= 0)
-        {
+        if (x >= 0) {
             if (x % 2 == 0)
                 System.out.println("positief en even");
             else
                 System.out.println("positief en oneven");
-        }
-        else // x < 0
+        } else // x < 0
         {
             if (x % 2 == 0)
                 System.out.println("negatief en even");
@@ -51,7 +49,7 @@ public class H2_Oef1
         //OF
         System.out.printf("%s en %s",
                 x >= 0 ? "positief" : "negatief",
-                x %2 == 0 ? "even" : "oneven");
+                x % 2 == 0 ? "even" : "oneven");
 
     }// einde werkMetIf
 
