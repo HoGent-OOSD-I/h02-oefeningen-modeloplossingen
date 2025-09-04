@@ -21,15 +21,7 @@ public class H2_Oef30
 			if (getal == 1)
 				priem = false;
 			else
-			{
-				//Beter een methode gebruiken zodat we geen break hoeven te gebruiken
-				/*priem = true;
-				for (int mogelijkeDeler = 2; mogelijkeDeler <= getal/2; mogelijkeDeler++) {
-					if (getal % mogelijkeDeler == 0) {
-						priem = false;
-						break;
-					}
-				}*/
+            {
 				priem = !isDeelbaar(getal);
 			}
 				
