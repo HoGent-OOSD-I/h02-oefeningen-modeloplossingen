@@ -35,7 +35,7 @@ public class H2_Oef30
     }
 
 	private boolean isDeelbaar(int getal) {
-		for (int mogelijkeDeler = 2; mogelijkeDeler <= getal/2; mogelijkeDeler++) {
+		for (int mogelijkeDeler = 2; mogelijkeDeler <= Math.sqrt(getal); mogelijkeDeler++) {
 			if (getal % mogelijkeDeler == 0) {
 				return true;
 			}
