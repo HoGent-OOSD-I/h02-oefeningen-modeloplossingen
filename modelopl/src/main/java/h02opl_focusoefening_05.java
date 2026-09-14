@@ -1,14 +1,5 @@
-package cui;
+void main() {
 
-public class H2_Oef5
-{
-    public static void main(String[] args)
-    {
-        new H2_Oef5().bepaalTrueOfFalse();
-    }
-
-    private void bepaalTrueOfFalse()
-    {
         int i = 1, j = 2, k = 3, m = 2;
 
         System.out.println(i == 1); // true
@@ -18,5 +9,5 @@ public class H2_Oef5
         System.out.println(j >= i || k == m); // true || ... (false, maar niet belangrijk) --> true
         System.out.println(k + m < j || 3 - j >= k); // false || false --> false
         System.out.println(!(k > m)); // !true --> false
-    }
-}
+
+}//einde main

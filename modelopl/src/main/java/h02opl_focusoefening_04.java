@@ -1,22 +1,8 @@
-package cui;
-
-import java.util.Scanner;
-
-public class H2_Oef3
+void main()
 {
-    public static void main(String[] args)
-    {
-        new H2_Oef3().toon2SwitchVoorbeelden();
-    }
-
-
-    private void toon2SwitchVoorbeelden()
-    {
-        Scanner invoer = new Scanner(System.in);
         int i, k;
         // invoer van een waarde voor i
-        System.out.print("Geef een geheel getal: ");
-        i = invoer.nextInt();
+        i = Integer.parseInt(IO.readln("Geef een geheel getal: "));
 
         // mbv een switch-expressie
         k = switch (i) {
@@ -26,14 +12,14 @@ public class H2_Oef3
             default -> 20;
         }; // ; is noodzakelijk!!
 
-        System.out.printf("De waarde van k: %d%n", k);
+        IO.print(String.format("De waarde van k: %d%n", k));
 
         int x, y = 0;
         // invoer van een waarde voor x
-        System.out.print("Geef een geheel getal: ");
-        x = invoer.nextInt();
+        x = Integer.parseInt(IO.readln("Geef een geheel getal: "));
 
-        // mbv een switch-statement
+
+    // mbv een switch-statement
         switch (x) {
             case 100, 150, 170, 199 -> y = y + 1;
         }
@@ -45,7 +31,6 @@ public class H2_Oef3
                 };
          */
 
-        System.out.printf("De waarde van y: %d%n", y);
-    }
+        IO.print(String.format("De waarde van y: %d%n", y));
 
-}
+}//einde main
