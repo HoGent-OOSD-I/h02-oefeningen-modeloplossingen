@@ -23,7 +23,7 @@ void main()
         switch (x) {
             case 100, 150, 170, 199 -> y = y + 1;
         }
-        ;
+
         /*  NIET (want geen default-label; noodzakelijk bij een switch-expressie!)
         y = switch(x)
                 {

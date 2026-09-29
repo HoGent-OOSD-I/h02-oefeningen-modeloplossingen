@@ -24,22 +24,22 @@ void main()
     // opgave3
     x = -3;
     if (x >= 0) {
-        if (x % 2 == 0)
+        if (x % 2 == 0) // even
             IO.println("positief en even");
-        else
+        else // oneven
             IO.println("positief en oneven");
     } else // x < 0
     {
-        if (x % 2 == 0)
+        if (x % 2 == 0) // even
             IO.println("negatief en even");
-        else
+        else // oneven
             IO.println("negatief en oneven");
     }
 
-    //OF
+    // OF (voor wie de conditionele operator al kent)
     IO.print(String.format("%s en %s",
             x >= 0 ? "positief" : "negatief",
             x % 2 == 0 ? "even" : "oneven"));
 
-}// einde main
+} // einde main
 
