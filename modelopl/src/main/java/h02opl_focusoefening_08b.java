@@ -5,11 +5,11 @@ static void main() {
             {
                 for (int k = 1; k <= 4; k++)
                 {
-                    System.out.print("*");
+                    IO.print("*");
                 }
-                System.out.println();
+                IO.println();
             }
-            System.out.println();
+            IO.println();
         }
 
 }//einde main

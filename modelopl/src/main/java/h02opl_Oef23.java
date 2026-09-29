@@ -21,6 +21,5 @@ void main() {
 
 int geefGetal(int teller)
 {
-	Scanner input = new Scanner(System.in);
 	return Integer.parseInt(IO.readln(String.format("Geef getal %d in: ",teller)));
 }//einde geefGetal
