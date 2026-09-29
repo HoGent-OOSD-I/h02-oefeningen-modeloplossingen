@@ -8,4 +8,4 @@ void main() {
     }
     while (getal % 2 == 0 || getal >= 0);
     // OF while (!(getal % 2 != 0 && getal < 0))
-}//einde main
+} // einde main

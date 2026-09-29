@@ -15,4 +15,4 @@ void main() {
     while (getal2 <= getal1);
     // OF while (getal1 >= getal2);
     // OF while (!(getal2 > getal1));
-}//einde main
+} // einde main
