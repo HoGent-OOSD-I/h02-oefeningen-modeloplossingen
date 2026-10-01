@@ -17,7 +17,7 @@ int getal, aantal = 0, totaal=0;
         IO.println("Er werden geen getallen ingegeven!"); 
 }//einde main
 
-private int leesGetalIn()
+int leesGetalIn()
 {
     return Integer.parseInt(IO.readln("Geef een getal, -1 om te stoppen, max 10 getallen: "));
 }//einde leesGetalIn
